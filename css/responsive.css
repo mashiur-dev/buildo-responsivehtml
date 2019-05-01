@@ -1,0 +1,234 @@
+ /*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    
+    /*********************
+        Common Style
+    **********************/
+
+    h1 {
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 30px;
+    }
+    
+    .social_icons, .header_top_right .social_icons, .footer_bottom .social_icons {
+        text-align: center;
+    }
+    .social_icons > li {
+        margin: 0px 5px;
+    }
+    .social_icons a i {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .section-pad {
+      padding: 40px 0px;
+    }
+    
+    .section_intro {
+      margin: 10px auto 30px;
+    }
+    .section_intro > h1 {
+      font-size: 20px;
+      margin: 5px 0;
+    }
+    .section_intro > p {
+      font-size: 12px;
+    }
+    
+    .cta_primary {
+      padding: 0px 10px;
+      margin: 10px 0px;
+    }
+    .cta_primary i {
+      line-height: 30px;
+    }
+    
+    /**********************
+        Header Area
+    **********************/
+
+    .header_top_left > ul {
+        font-size: 12px;
+        text-align: center;
+    }
+    .header_top_left li {
+        margin-right: 10px;
+    }
+
+    .navbar-toggle {
+        margin-top: 6px;
+    }
+    .header_bottom .logo a img {
+        max-width: 60px;
+        margin-left: 10px;
+    }
+    #main_manu {
+        border-top: 1px solid #ddd;
+        margin-top: 16px;
+    }
+    #main_manu > ul {
+        float: none;
+    }
+    #main_manu ul li a {
+        line-height: 31px;
+        padding: 0;
+        margin-left:5px;
+    }
+    #main_manu ul li a {
+      line-height: 35px;
+    }
+    #main_manu ul li:hover:after{
+        width:90%;
+        left: 1px;
+    }
+    
+    /**********************
+        Slider Area
+    **********************/
+    .single_slids {
+      padding: 50px 0;
+    }
+    .single_slids h2 {
+      font-size: 27px;
+      line-height: 30px;
+    }
+    .single_slids h3 {
+      font-size: 40px;
+      line-height: 50px;
+    }
+    
+    /**********************
+        Latest Area
+    **********************/
+    .latest_project_area {
+        padding-bottom: 0;
+    }
+    .latest_project_filter {
+      margin-bottom: 30px;
+    }
+    .latest_project_filter > li {
+      margin: 0 4px;
+    }
+    .latest_project_filter a {
+      padding: 0px;
+    }
+    .single_project {
+      width: 50%;
+    }
+    .single_project_content > h2 {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    
+    /**********************
+        Service Area
+    **********************/ 
+    .single-service {
+      margin-bottom: 20px;
+    }
+    
+    /**********************
+        Team Area
+    **********************/  
+    .teaminfo > h2 {
+      line-height: 18px;
+      font-size: 16px;
+    }
+    .teaminfo > h3 {
+      line-height: 16px;
+    }
+    
+    /**********************
+        Tastimonials Area
+    **********************/ 
+    .testimonial_intro {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .testimonial_intro i {
+      font-size: 50px;
+      line-height: 60px;
+      padding: 10px 70px;
+    }
+
+    
+    
+    
+    /**********************
+        Email Subs Area
+    **********************/
+
+    .emailsubs_area h2 {
+      text-align: center;
+      font-size: 18px;
+    }
+    .emailsubs_area h3 {
+      text-align: center;
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 10px;
+    }
+    .emailsubs_area form#bildo_mc_form input {
+      width: auto;
+    }
+    .emailsubs_area form#bildo_mc_form {
+      text-align: center;
+    }
+
+    /**********************
+        Partner Area
+    **********************/
+    .partner {
+        margin-bottom: 15px;
+    }
+    /**********************
+        Footer Area
+    **********************/
+    .footer > div {
+        margin-bottom: 15px;
+    }
+    .f_usflinks ul li {
+        margin-right: 10px;
+        float: none;
+    }
+    #flickr_grid a {
+        width: 28%;
+    }
+    .copyright_info {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    
+    
+    
+    
+    
+    
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    #flickr_grid a {
+        width: 24%;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+
+}
